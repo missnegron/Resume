@@ -1,0 +1,68 @@
+/*
+   Web page feel and looks!
+*/
+body {
+	background: linear-gradient(
+		  to bottom,
+		  #FFFFFF,
+		  #FFFFFF 50%,
+		  #F9F9F9 50%,
+		  #F9F9F9
+	);
+	background-size: 100% 20px;
+	}
+a {
+	color: white;
+}
+h2 {
+	color: gray;
+}
+#main {
+	margin: auto;
+	width: 800px;
+	border: 1px solid gray;
+	padding: 10px;
+	box-shadow: 5px 10px #8888884f;
+	background-color: white;
+}
+#title {
+	font-family: 'Dancing Script', cursive;
+	font-style: italic;
+	color: white;
+    height: 100px;
+    text-align: center;
+    font-size: 35px;
+    background-color: #f8a991;
+    padding-top: 20px;
+}
+.nav_item {
+	padding-left: 50px;
+}
+#profile_image {
+	margin: 10px;
+	width: 165px;
+	height: 165px;
+	border-radius: 100px;
+	position: absolute;
+}
+#nav_links {
+	display: flex;
+	font-family: 'Abril Fatface', cursive;
+	padding-left: 20px;
+	text-decoration: underline;
+	color: white;
+	font-size: 20px;
+	background-color: #f8a991;
+	font-style: italic;
+	position: relative;
+}
+#content {
+	displaY: flex;
+}
+#left, #right {
+	padding: 50px;
+}
+#right {
+	background-color: #8080801c;
+	margin-left: 134px;
+}
